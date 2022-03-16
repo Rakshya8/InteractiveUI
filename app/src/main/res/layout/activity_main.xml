@@ -17,6 +17,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginTop="10dp"
+        android:onClick="showToast"
         android:background="@color/primary_blue"/>
 
     <Button
@@ -30,16 +31,19 @@
         android:layout_marginLeft="10dp"
         android:background="@color/primary_blue"
         android:layout_marginRight="10dp"
+        android:onClick="addCount"
         android:layout_marginBottom="10dp"/>
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="386dp"
-        android:layout_height="577dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
+        android:layout_width="366dp"
+        android:layout_height="557dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:background="#FFFF00"
         android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
         android:text="0"
         android:textColor="@color/primary_blue"
         android:textSize="124dp"
